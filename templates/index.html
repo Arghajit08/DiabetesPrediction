@@ -272,7 +272,7 @@
                 <input type="number" required name="A" placeholder="Age(in years)" required>
               </div>
               <div class="button input-box">
-                  <input type="submit" value="View Report">
+                  <input type="submit" value="View Report" onclick="main.action='{% url 'result'%}'; return true;">
               </div>
               <div class="button input-box">
                 <input type="submit" value="View Analytics" onclick="main.action='{% url 'details'%}'; return true;">
